@@ -6,3 +6,6 @@ Api built in .NET using AWS Lambda
 ```
 dotnet tool install -g Amazon.Lambda.Tools
 ```
+
+## Nuget Packages
+https://www.nuget.org/packages/Amazon.Lambda.AspNetCoreServer.Hosting
