@@ -75,3 +75,4 @@ https://www.nuget.org/packages/Amazon.Lambda.AspNetCoreServer.Hosting
 ## References
 https://codewithmukesh.com/blog/hosting-aspnet-core-web-api-with-aws-lambda/
 https://www.linkedin.com/pulse/guia-r%C3%A1pido-configura%C3%A7%C3%A3o-e-deploy-de-web-apis-net-6-como-de-oliveira/
+https://aws.amazon.com/pt/blogs/aws-brasil/crie-empacote-e-publique-net-c-lambda-functions-com-o-aws-cdk/
