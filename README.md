@@ -2,13 +2,15 @@
 Api built in .NET using AWS Lambda
 
 ## Summary
-[Install Lambda Tools](#install-lambda-tools)  
-[Deploy](#deploy)  
-[Create Function URL](#create-function-url)  
-[Environment Variables](#environment-variables)  
-[URL](#URL)
-[Nuget Packages](#nuget-packages)  
-[References](#references)
+
+- [Install Lambda Tools](#install-lambda-tools)  
+- [Deploy](#deploy)  
+- [Create Function URL](#create-function-url)  
+- [Environment Variables](#environment-variables)  
+- [URL](#url)  
+- [Nuget Packages](#nuget-packages)  
+- [References](#references)
+
 
 
 ## Install Lambda Tools
