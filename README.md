@@ -2,17 +2,15 @@
 Api built in .NET using AWS Lambda
 
 ## Summary
-[Install Lambda Tools](#Install-Amazon.Lambda.Tools)
+[Install Lambda Tools](#install-lambda-tools)  
+[Deploy](#deploy)  
+[Create Function URL](#create-function-url)  
+[Environment Variables](#environment-variables)  
+[Nuget Packages](#nuget-packages)  
+[References](#references)
 
-[Deploy](#Deploy)
 
-[Create Function URL](#Create-Function-URL)
-
-[Nuget Packages](#Nuget-Packages)
-
-[References](#References)
-
-## Install Amazon.Lambda.Tools
+## Install Lambda Tools
 ```
 dotnet tool install -g Amazon.Lambda.Tools
 ```
@@ -34,6 +32,10 @@ dotnet lambda deploy-function
 
 ![image](https://github.com/user-attachments/assets/dea8ae4d-96bb-4ce4-b08b-cb6c1078f9d1)
 
+PS: With regard to this information, it is extremely important to pay attention to the handler. In traditional lambda functions, the handler is responsible for indicating the path to the application's input method. This does not apply in this approach to configuring web APIs as lambda functions. Instead, you only need to enter the name of the web API assembly.
+
+For example: if the namespace of the web API controllers was Teste.API.Controllers, the handler would just be Teste.API.
+
 ### Console AWS
 ![image](https://github.com/user-attachments/assets/6b052d15-7441-4f08-a024-51b1e87497dc)
 
@@ -44,6 +46,27 @@ dotnet lambda deploy-function
 
 
 ![image](https://github.com/user-attachments/assets/0df81d55-e18e-4cb3-9913-61249ae76810)
+
+![image](https://github.com/user-attachments/assets/ad29f188-f6ed-49c3-99d1-bd1055eea8e3)
+
+![image](https://github.com/user-attachments/assets/4d166f13-78ee-480f-b822-dfd89a7c8de4)
+
+
+## Environment Variables
+
+![image](https://github.com/user-attachments/assets/2f253c42-57b2-4ab4-a509-accedd39ae9d)
+
+![image](https://github.com/user-attachments/assets/778ae6e9-fea3-4207-a292-146d7f594a06)
+
+![image](https://github.com/user-attachments/assets/7a328f81-ad73-4b68-af4e-f35a85b65047)
+
+
+Now we can see swagger
+
+
+
+
+
 
 
 ## Nuget Packages
