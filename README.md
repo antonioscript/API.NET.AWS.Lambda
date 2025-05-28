@@ -77,6 +77,8 @@ https://codewithmukesh.com/blog/hosting-aspnet-core-web-api-with-aws-lambda/
 
 https://www.linkedin.com/pulse/guia-r%C3%A1pido-configura%C3%A7%C3%A3o-e-deploy-de-web-apis-net-6-como-de-oliveira/
 
+https://www.codemag.com/Article/2008041/Transform-Your-ASP.NET-Core-API-into-AWS-Lambda-Functions
+
 https://aws.amazon.com/pt/blogs/aws-brasil/crie-empacote-e-publique-net-c-lambda-functions-com-o-aws-cdk/
 
 https://docs.aws.amazon.com/lambda/latest/dg/csharp-package-asp.html
