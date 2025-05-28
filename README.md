@@ -6,6 +6,7 @@ Api built in .NET using AWS Lambda
 [Deploy](#deploy)  
 [Create Function URL](#create-function-url)  
 [Environment Variables](#environment-variables)  
+[URL](#URL)
 [Nuget Packages](#nuget-packages)  
 [References](#references)
 
@@ -63,16 +64,12 @@ For example: if the namespace of the web API controllers was Teste.API.Controlle
 ![image](https://github.com/user-attachments/assets/7a328f81-ad73-4b68-af4e-f35a85b65047)
 
 
-
-
-
-
-
-
-
+## URL
+https://yie6sihsfqiaxesd2sqhazgxtq0ayzzc.lambda-url.us-east-1.on.aws/swagger/index.html
 
 ## Nuget Packages
 https://www.nuget.org/packages/Amazon.Lambda.AspNetCoreServer.Hosting
 
 ## References
 https://codewithmukesh.com/blog/hosting-aspnet-core-web-api-with-aws-lambda/
+https://www.linkedin.com/pulse/guia-r%C3%A1pido-configura%C3%A7%C3%A3o-e-deploy-de-web-apis-net-6-como-de-oliveira/
