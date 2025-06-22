@@ -8,7 +8,7 @@ Api built in .NET using AWS Lambda
 - [Create Function URL](#create-function-url)  
 - [Environment Variables](#environment-variables)  
 - [URL](#url)
-- [Tips] (#Tips)
+- [Tips] (#tips)
 - [Nuget Packages](#nuget-packages)  
 - [References](#references)
 
