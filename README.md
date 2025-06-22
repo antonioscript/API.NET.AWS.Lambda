@@ -73,6 +73,7 @@ https://yie6sihsfqiaxesd2sqhazgxtq0ayzzc.lambda-url.us-east-1.on.aws/swagger/ind
 ## Tips
 - To see the logs you need to give BasicRole permission to view
 - Even giving persmission, if the logs do not appear, you have to run the application at least once in "test" for it to generate the log
+- Don’t forget the package: Amazon.Lambda.AspNetCoreServer
 
 ## Nuget Packages
 https://www.nuget.org/packages/Amazon.Lambda.AspNetCoreServer.Hosting
