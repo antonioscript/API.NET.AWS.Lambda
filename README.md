@@ -7,7 +7,8 @@ Api built in .NET using AWS Lambda
 - [Deploy](#deploy)  
 - [Create Function URL](#create-function-url)  
 - [Environment Variables](#environment-variables)  
-- [URL](#url)  
+- [URL](#url)
+- [Tips] (#Tips)
 - [Nuget Packages](#nuget-packages)  
 - [References](#references)
 
@@ -68,6 +69,10 @@ For example: if the namespace of the web API controllers was Teste.API.Controlle
 
 ## URL
 https://yie6sihsfqiaxesd2sqhazgxtq0ayzzc.lambda-url.us-east-1.on.aws/swagger/index.html
+
+## Tips
+- To see the logs you need to give BasicRole permission to view
+- Even giving persmission, if the logs do not appear, you have to run the application at least once in "test" for it to generate the log
 
 ## Nuget Packages
 https://www.nuget.org/packages/Amazon.Lambda.AspNetCoreServer.Hosting
